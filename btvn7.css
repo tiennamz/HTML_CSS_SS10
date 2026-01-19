@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 600px;
+    opacity: 1;
+    background-image: url(./images/dat_ban.png);
+    object-fit: cover;
+    color: #fff;
+
+}
+h1{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+h1+p{
+
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22.7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    width: 1400px;
+    height: 750px;
+    flex-wrap: wrap;
+    
+    
+}
+.service {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+.service:nth-child(1){
+    background-image: url(./images/khong_gian_chinh.jpg) ;
+    object-fit: cover;
+    background-size: 300px 300px;
+    
+}
+.service:nth-child(2){
+    background-image:  url(./images/ban_tiec_tinh_te.jpg ) ;
+    object-fit: cover;
+    background-size: 300px 300px;
+}
+.service:nth-child(3){
+    background-image: url(./images/mon_an_nghe_thuat.jpg);
+    object-fit: cover;
+    background-size: 300px 300px;
+}
+.service:nth-child(4){
+    background-image: url(./images/mon_chinh_cao_cap.png);
+    object-fit: cover;
+    background-size: 300px 300px;
+}
+.service:nth-child(5){
+    background-image: url(./images/ban_an_lang_man.jpg);
+    object-fit: cover;
+    background-size: 300px 300px;
+}
+.service:nth-child(6){
+    background-image: url(./images/bep_mo_hien_dai.jpg);
+    object-fit: cover;
+    background-size: 300px 300px;
+}
+.service:nth-child(7){
+    background-image: url(./images/mon_trang_mieng_tinh_te.png);
+    object-fit: cover;
+    background-size: 300px 300px;
+}
+.content {
+    color: #fff;
+    width: 300px;
+    height: 133px;
+    padding: 167px 40px;
+    padding-bottom: 40px;
+    
+
+}
+.form {
+    width: 1920px;
+    height: 481.8900146484375px;
+    background-color: #8B0000;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.form p{
+    margin-top: 31px;
+    margin-bottom: 0;
+}
+.input{
+    width: 1000px;
+    height: 125.89px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+    margin:0 20px;
+    
+}
+input{
+    width: 300px;
+    height: 51px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    width: 301.94000244140625px;
+    height: 53px;
+    top: 348.89px;
+    left: 809.03px;
+    color: #8B0000;
+    opacity: 1;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+footer{
+    width: 1920px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+    background-color: #1E1E1E;
+
+}
